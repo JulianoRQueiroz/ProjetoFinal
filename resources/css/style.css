@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-family: 'Modern Antiqua', cursive;
+}
+
+html {
+    font-size: 20px;
+    text-rendering: optimizeLegibility; 
+}
+
+/*Configurando minha linha do sistema de grid*/
+.row {
+    max-width: 1140px; /*Define o tamanho m�ximo da linha*/
+    margin: 0 auto 0 auto; /*Define que o container vai ficar centralizado*/
+    /*margin: 0 auto; maneira alternativa para a linha de cima*/
+}
+
+header {
+    background-color: #000000;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: #8257E6;
+}
+
+.logo {
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px; 
+}
+
+.menu {
+    float: center;
+    list-style: none; 
+    margin-top: 60px; 
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 80px; 
+}
