@@ -48,7 +48,7 @@ header nav{
 }
 header li a{
     color: #fff;
-    font-size: 2.8rem;
+    font-size: 2.4rem;
 }
 header li{
     margin: 0 20px;
@@ -70,14 +70,20 @@ header li:last-child{
 }
 
 /* container-img */
+container {
+    width: 100%;
+    display: block;
+}
 
 .container-img {
     background-image: url("../img/meat-burger-tomato-onion-beans-walnuts-side-view\ 1.jpg");
     background-size: cover;
-    min-height: 100vh;
+    min-height: 90vh;
     color: #fff;
     top:10px;
     display: flex;
+    min-width: 600px;
+    min-height: 1140px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -85,15 +91,21 @@ header li:last-child{
 }
 
 .container-img p {
-    font-size: 6.6rem;
+    font-size: 2.6rem;
     color: #fff;
-    padding: 150px;
+    min-width: 600px;
+    padding: 40px;
     background-color: #000;
     opacity: 90%
 }
-@media (max-width: 14100px){
+@media (max-width: 600px){
+    .container-img {
+        flex-direction: column;
+        margin: 0;
+    }
     .container-img p {
-        font-size: 2.8rem;
+        font-size: 1.6rem;
+        margin-bottom: 20px;
     }
 
 }
@@ -101,7 +113,9 @@ header li:last-child{
 
 footer {
     background-color: #000;
-    padding: 50px;
+    padding: 60px;
+    padding-top: 20px;
+    padding-bottom: 120px;
     font-size: 2.4rem;
 }
 
@@ -170,8 +184,17 @@ footer {
 }
 
 footer p {
-    color: #888;
+    color: #fff;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 100px;
     font-size: 1.8rem;
+}
+
+@media (max-width: 700px){
+    footer {
+        flex-direction: column;
+    }
+    header p {
+        margin-bottom: 20px;
+    }
 }
