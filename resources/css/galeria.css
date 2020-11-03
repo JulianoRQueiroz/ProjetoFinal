@@ -6,6 +6,7 @@
     font-family: 'Modern Antiqua', cursive;
 }
 
+
 nav, ul{
     list-style: none;
 }
@@ -24,7 +25,7 @@ a:active {
     opacity: 1;
     color: #8257E6; 
     border-bottom: 4px solid #8257E6; 
-}
+} 
 
 /* Header */
 
@@ -67,4 +68,39 @@ header li:last-child{
     header img {
         margin-bottom: 20px;
     }
+} 
+
+/* Selection items-wrapper */
+
+body{
+    display: grid;
+    place-items: center;
+    height: 150vh;
+}
+ 
+#items-wrapper {
+    width: 100vh;
+}
+#items {
+    display: flex;
+    overflow-x: auto; /* habilita scroll*/ 
+    scroll-snap-type: x mandatory; 
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+
+}
+.item {
+    flex: none;
+
+    width: 100%;
+    height: 400px;
+
+    object-fit: cover;
+    scroll-snap-align: start;
+    pointer-events: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
 }
