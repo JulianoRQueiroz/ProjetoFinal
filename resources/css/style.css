@@ -187,12 +187,3 @@ footer p {
     margin-top: 60px;
     font-size: 1.4rem;
 }
-
-@media (max-width: 600px){
-    footer {
-        flex-direction: column;
-    }
-    header p {
-        margin-bottom: 0px;
-    }
-}
