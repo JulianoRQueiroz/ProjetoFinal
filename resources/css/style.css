@@ -137,18 +137,14 @@ section {
 .container-img {
     background-image: url("../img/home/meat-burger-tomato-onion-beans-walnuts-side-view\ 1.jpg");
     background-size: 100% 100%;
+    margin-top: 200px;
     background-repeat: no-repeat;
     color: #fff;
     display: flex;
-    width: 1640px;
-    min-height: auto;
+    width: 100vh;
     min-width: 100%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: auto;
     height: 100vh;
-    justify-content: center;
-    align-items: center;
+    min-height: 100%;
 }
 
 .container-img div {
@@ -179,13 +175,13 @@ section {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media only screen and (min-width: 700px) and (max-width: 900px) {
     .container-img div{
         font-size: 1.4rem;
         
     }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 699px) {
     .container-img p{
         font-size: 1.2rem;
     }
@@ -204,12 +200,13 @@ section {
     }
 }
 
-/* footer */
 
+/* footer */
 footer {
     background-color: #000;
     padding: 20px;
-    padding-top: 20px 10px;
+    width: 100%;
+    padding-top: 20px;
     padding-bottom: 40px;
     font-size: 2.4rem;
 }
@@ -278,9 +275,36 @@ footer {
     color: #517fa4;
 }
 
-footer p {
+footer .footer-paragrafo {
     color: #fff;
     text-align: center;
     margin-top: 60px;
     font-size: 1.4rem;
+}
+
+.promo-footer {
+    width: 100vh;
+    min-width: 100%;
+}
+
+@media only screen and (max-width: 800px) and (max-width: 600px){
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    footer p {
+        font-size: 1.2rem;
+    }
+
+    footer li{
+        font-size: 1.4rem;
+        
+    }
+
+    footer ul{
+        font-size: 1.2rem;
+        display: flex;
+    }
 }
