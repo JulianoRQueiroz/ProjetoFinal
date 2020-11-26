@@ -55,7 +55,7 @@ header li a{
 }
 
 header li{
-    margin: 0 40px;
+    padding: 30px 10px;
 }
 
 header li:first-child{
@@ -70,12 +70,20 @@ header .menu{
 }
 header .nav-menu{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
 header .item-nav{
-    margin: 20px;
+    margin: 0 auto;
+    
+}
+
+nav .nav-menu{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
 }
 
 @media (max-width: 14300px){
