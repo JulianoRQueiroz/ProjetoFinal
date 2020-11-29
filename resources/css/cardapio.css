@@ -169,9 +169,10 @@ h1 {
 
 .slider{
     width: 100%;
-    max-width: 450px;
-    height: 40vw;
-    max-height: 150px;
+    max-width: 400px;
+    height: 50vh;
+    min-height: 20%;
+    max-height: 2000px;
     align-self: center;
     position: relative;
     margin-bottom: 30px;
@@ -187,7 +188,7 @@ h1 {
     height: 100%;
     object-fit: cover;
 
-    transition: opacity 700ms;
+    transition: opacity 800ms;
 
 }
 
@@ -195,22 +196,75 @@ h1 {
     opacity: 1;
 }
 
-section {
-    background-image: url('../img/promo/promobackground.jpg');
-    background-size: 100% 100%; 
-    background-repeat: no-repeat;
-    width: 100vh;
-    min-width: 100%;
-    height: auto;
-    opacity: 80%;
-    object-fit: cover;
-    display:  flex;
-    flex-direction: column;
+.home-menu {
+   margin: 0 auto;
+   margin: 0 auto;
+   min-width: 100%;
+   width: 100vh;
+   padding: 20px 20px;
 }
+
+
+.home-menu ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.home-menu ul:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.home-menu li {
+    float: left;
+    width: 40%;
+    padding: 0;
+    font-size: 18px;
+    margin: 20px 0 20px 10%;
+}
+
+.home-menu li:nth-child(odd) {
+    margin: 20px 10% 20px 0;
+}
+
+.pedido {
+    float: left;
+    color: #000;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    padding-right: 15px;
+}
+
+.valor {
+    float: right;
+    color: #000;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    padding-left: 15px;
+}
+
+.descricao {
+    clear: both;
+    display: block;
+    color: #999;
+    font-style: italic;
+    font-size: 15px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    position: relative;
+    top: -8px;
+}
+
+
 
 h2{
     width: 100%;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     color: #fff;
     margin-top: 20px;
     padding-bottom: 30px;
@@ -266,7 +320,7 @@ footer {
     width: 100%;
     padding-top: 20px;
     padding-bottom: 40px;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
 }
 
 .footer-nav {
@@ -283,6 +337,7 @@ footer {
 .social-links li {
     display: inline-block;
     margin-right: 20px;
+    font-size: 1.8rem;
 }
 
 .footer-nav li:last-child,
@@ -350,7 +405,6 @@ footer .footer-paragrafo {
         flex-direction: column;
     }
     footer p {
-        margin-bottom: 0px;
-        font-size: 1.2rem;
+        font-size: 1.0rem;
     }
 }
