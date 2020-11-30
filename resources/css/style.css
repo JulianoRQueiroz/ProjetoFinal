@@ -134,7 +134,8 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 250px;
+    padding-top: 300px;
+    padding-bottom: 200px;
     margin-bottom: 30px;
 }
 
@@ -144,9 +145,10 @@ section {
     width: 100%;    
     height: 30%;
     min-height: 30%;
-    padding: 40px 20px;
+    padding: 20px 10px;
     display: flex;
 }
+
 
 section .section-img{
     width: 100vh;
@@ -157,7 +159,7 @@ section .section-img{
 }
 
 .container-p{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     min-width: 100px;
     font-style: italic;
 }

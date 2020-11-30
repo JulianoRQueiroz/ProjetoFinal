@@ -197,11 +197,10 @@ h1 {
 }
 
 .home-menu {
-   margin: 0 auto;
-   margin: 0 auto;
    min-width: 100%;
    width: 100vh;
-   padding: 0px 5px;
+   padding: 20px;
+   margin-bottom: 10px;
 }
 
 
