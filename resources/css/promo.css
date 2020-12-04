@@ -84,7 +84,6 @@ h1 {
     font-size: 3.2rem;
     padding-bottom: 20px;
     text-align: center;
-    margin-top: 20px;
 }
 
 nav .nav-menu{
@@ -110,7 +109,7 @@ nav .nav-menu{
         font-size: 1.6rem;
     }
 }
-@media only screen and (max-width: 1250x) and (max-width: 1000px) {
+@media only screen and (max-width: 1250px) and (max-width: 1000px) {
     .menu a {
         font-size: 1.4rem;
     }

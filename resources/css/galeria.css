@@ -154,19 +154,15 @@ section .tems-img{
 h1 {
     color: #000;
     font-size: 3.2rem;
-    padding-bottom: 20px;
     text-align: center;
-    margin-top: 20px;
 }
  
 
 #items {
     display: flex;
     margin: 0 auto;
-    margin-top: 20px;
-    width: 100%;
-    max-width: 50%;
-    height: 50vh;
+    margin: 0 auto;
+    width: 80%;
     min-height: 100%;
     overflow-x: auto; 
     align-content: space-around;
