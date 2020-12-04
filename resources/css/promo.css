@@ -79,6 +79,14 @@ header .item-nav{
     
 }
 
+h1 {
+    color: #000;
+    font-size: 3.2rem;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
 nav .nav-menu{
     display: flex;
     justify-content: space-around;
@@ -136,17 +144,11 @@ nav .nav-menu{
     }
 }
 
-section {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
 .slider-exemplo {
     width: 100vh;
     height: 100vh;
     margin: 250px auto;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     padding: 20px 20px;
 }
 
