@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Burguer</title>
+    <link rel="stylesheet" type="text/css" href="./resources/css/reservas.css">
     <link href="https://fonts.googleapis.com/css2?family=Modern+Antiqua&display=swap" rel="stylesheet">
-    <title>Css Burguer Home</title>
-    <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
 </head>
+
 <body>
     <header class="menu">
         <img src="./resources/css/img/logo.png" alt="Css Burguer">
@@ -37,7 +39,7 @@
                 </a>
             </li>
             <li class="item-nav">
-                <a href="#">
+                <a href="./reservas.html">
                     Reservas
                 </a>
             </li>
@@ -49,14 +51,42 @@
         </nav>
     </header>
     <section class="container-img">
-        <p class="container-p">
-                A hamburgueria Css Burguer foi criada em 2020 na disciplina de desenvolvimento Web
-            para Dispositivos Móveis,então trouxemos uma experiência única de sensações e linhas de código.
-            Um hambúrguer é um sanduíche que consiste em um ou mais hambúrgueres cozidos de carne moída, geralmente 
-            carne bovina, colocados dentro de um pão ou pão fatiado. O hambúrguer pode ser frito, grelhado, defumado ou grelhado.
-        </p>
-        <img class="section-img" src="./resources/img/home/promobackground.jpg">
+        <p>Reservas</p>
     </section>
+
+    <section class="wrapper">
+        <div class="registroformulario">
+            <h1>Formulário de Cadastro</h1>
+        </div>
+    
+    <section class="container-formulario-conteudo">
+        <form>
+            <label>Nome</label>
+            <input type="text" name="primeiro_nome">
+
+            <label>Numero de pessoas</label>
+            <input type="text" name="cpf">
+
+            <label>data</label>
+            <input type="text" name="endereco">
+
+            <label>Email</label>
+            <input type="text" name="email">
+
+            <label>Telfone</label>
+            <input type="text" name="investimento">
+
+            <label>Hora</label>
+            <input type="text" name="interesse">
+            
+            <label>Observação</label>
+            <textarea name="observacao"></textarea>
+            
+            <a href="#" class="botao">Enviar</a>
+
+        </form>
+    </section>
+
     <footer class="promo-footer">
         <div>
             <div class="col span-1-of-2">
@@ -66,17 +96,37 @@
             </div>
             <div>
                 <ul class="social-links">
-                    <li><a href="#"><ion-icon class="logo-instagram" name="logo-instagram"></ion-icon></a></li>
-                    <li><a href="#"><ion-icon class="logo-facebook" name="logo-facebook"></ion-icon></a></li>
-                    <li><a href="#"><ion-icon class="logo-twitter" name="logo-twitter"></ion-icon></a></li>
+                    <li>
+                        <a href="#">
+                            <ion-icon class="logo-instagram" name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <ion-icon class="logo-facebook" name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <ion-icon class="logo-googleplus" name="logo-googleplus"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <ion-icon class="logo-twitter" name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
         <div class="footer-paragrafo">
             <p>Copyright &copy; 2019 CSS BUrguer Todos os direitos reservados.</p>
-       </div>
-      </ul>
+        </div>
+        </ul>
     </footer>
     <script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script>
+
+
 </body>
+
 </html>
