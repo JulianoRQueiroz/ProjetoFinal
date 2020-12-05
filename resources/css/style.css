@@ -19,6 +19,12 @@ a {
     padding: 2px 6px;
 }
 
+.container{
+    width: 1200px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
 
 a:hover,
 a:active {
@@ -32,8 +38,8 @@ a:active {
 header {
     background-color: #000;
     width: 100%;
-    min-width: 100vh;
-    position: absolute;
+    max-width: 1200px;
+    min-width: 306px;
     top:0;
     left: 0;
     display: flex;
@@ -50,7 +56,7 @@ header nav{
 }
 header li a{
     color: #fff;
-    font-size: 1.6rem;
+    font-size: 16px;
     
 }
 
@@ -78,116 +84,95 @@ header .item-nav{
     margin: 20px;
 }
 
-@media (max-width: 14300px){
+@media only screen and (max-width: 862px) and (max-width: 1116px){
     header {
-        flex-direction: column;
-    }
-    header img {
-        margin-bottom: 10px;
-    }
-    header .item-nav{
-        font-size: 1.4rem;
-    }
-}
-@media only screen and (max-width: 1410px) and (max-width: 1255px) {
-    .menu a {
-        font-size: 1.6rem;
-    }
-}
-@media only screen and (max-width: 1250x) and (max-width: 1000px) {
-    .menu a {
-        font-size: 1.4rem;
-    }
-}
-@media only screen and (max-width: 789px) {
-    .menu a {
-        font-size: 1.2rem;
+        flex-direction: row;
+        width: 820px;
+        min-width: 306px;
+        justify-content: start;
+        align-items: baseline;
+       
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-    .menu a {
-        font-size: 1.0rem;
+@media only screen and (max-width: 632px) and (max-width: 416px){
+    header {
+        flex-direction: row;
+        justify-content: start;
+        align-items: baseline;
     }
 }
 
-@media only screen and (max-width: 767px) {
-    .menu a {
-        font-size: 16px;
+@media only screen and (max-width: 521px) and (max-width: 306px){
+    header {
+        flex-direction: row;
+        justify-content: start;
+        align-items: baseline;
     }
 }
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-    .menu a {
-        font-size: 12px;
-    }
-}
-@media only screen and (max-width: 479px) {
-    .menu a {
-        font-size: 7px;
-    }
-}
 
 
 /* container-img */
 section {
     display: flex;
     align-items: center;
-    flex-direction: column;
-    padding-top: 250px;
-    margin-bottom: 30px;
+    flex-direction: row;
+    margin: 50px auto;
 }
 
 
 section .section-img{
-    width: 100vh;
+    width: 800px;
+    max-width: 1150px;
     min-width: 300px;
-    height: 400px;
-    object-fit: cover;
+    padding-top: 50px;
+    padding: 3%;
+    margin: 0 auto;
+    object-fit: cover
 }
 
 .container-p{
-    font-size: 1.8rem;
-    min-width: 100px;
-    margin: 20px 10px;
+    font-size: 26px;
+    width: 800px;
+    min-width: 306px;
+    max-width: 1150px;
+    margin: 10px;
+    margin-bottom: 50px;
     font-style: italic;
 }
-@media only screen and (max-width: 842px) and (max-width: 616px){
+
+
+@media only screen and (max-width: 862px) and (max-width: 1116px){
     section {
         flex-direction: column;
-        justify-content: center;
+        justify-content: start;
         align-items: baseline;
-        width: 100vh;
-    }
-
-    .container-img {
-        margin: 0 auto
-    }
-    .container-p {
-        font-size: 1.4rem;
-        margin: 10px 10px;
-        padding-bottom: 10px;
+        width: 800px;
+        padding-right: 25%;
     }
     
+    section .container-p{
+        font-size: 40px;
+    }
+
+    section .section-img{
+        width: 800px;
+        padding-left: 6%;
+    }
 }
 
 @media only screen and (max-width: 632px) and (max-width: 416px){
     section {
         flex-direction: column;
-        justify-content: center;
+        justify-content: start;
         align-items: baseline;
-        width: 100vh;
+    }
+    section .section-img{
+        width: 800px;
+        height: 750px;
     }
 
-    .container-img {
-        margin: 0 auto
-    }
-    .container-p {
-        font-size: 1.4rem;
-        margin: 10px 10px;
-        padding-bottom: 10px;
-    }
-    
 }
 
 /* footer */
@@ -197,7 +182,7 @@ footer {
     width: 100%;
     padding-top: 20px;
     padding-bottom: 40px;
-    font-size: 2.4rem;
+    font-size: 26px;
 }
 
 .footer-nav {
@@ -238,7 +223,7 @@ footer {
 
 .social-links li a:link,
 .social-links li a:visited {
-    font-size: 2.0rem;
+    font-size: 24px;
 }
 
 .logo-facebook,
@@ -268,19 +253,32 @@ footer .footer-paragrafo {
     color: #fff;
     text-align: center;
     margin-top: 60px;
-    font-size: 1.4rem;
+    font-size: 16px;
 }
 
 .promo-footer {
-    width: 100vh;
-    min-width: 100%;
+    width: 100%;
+    max-width: 1100px;
+    min-width: 360px;
 }
 
-@media only screen and (max-width: 800px) and (max-width: 600px){
+@media only screen and (max-width: 862px) and (max-width: 1116px){
     footer {
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: start;
+        align-items: baseline;
+        width: 820px;
+        min-width: 306px;
     }
-    footer p {
-        font-size: 1.0rem;
+}
+
+@media only screen and (max-width: 632px) and (max-width: 416px){
+    footer {
+        flex-direction: row;
+        justify-content: start;
+        align-items: baseline;
+        margin-top: 100px;
+        width: 820px;
+        min-width: 306px;
     }
 }
