@@ -107,8 +107,8 @@ header .item-nav{
 
 article {
     align-self: start;
-    padding-left: 2%;
 }
+
 h1 {
     color: #000;
     font-size: 3.2rem;
@@ -119,7 +119,7 @@ h1 {
 }
 
 section{
-    width: 700px;
+    width: 600px;
     min-width: 306px;
     max-width: 1200px;
     float: right;
@@ -150,8 +150,8 @@ section{
 
 .slider{
     width: 1200px;
-    max-width: 400px;
-    min-height: 350px;
+    max-width: 500px;
+    min-height: 450px;
     position: sticky;
 }
 
@@ -194,7 +194,7 @@ section{
     float: left;
     width: 40%;
     padding: 0;
-    font-size: 18px;
+    font-size: 22px;
     margin: 20px 0 20px 10%;
 }
 
@@ -241,8 +241,8 @@ section{
     .home-menu {
         flex-direction: column;
         align-items: center;
-        margin: 10px 10px;
-        padding-top: 100px;
+        padding-top: 60px;
+        width: 750px;
     }
 
     .cardapio{

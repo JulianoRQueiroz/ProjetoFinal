@@ -293,7 +293,7 @@ footer .footer-paragrafo {
 }
 
 .promo-footer {
-    width: 900px;
+    
     max-width: 1200px;
     min-width: 360px;
 }
@@ -303,7 +303,7 @@ footer .footer-paragrafo {
         flex-direction: row;
         justify-content: start;
         align-items: baseline;
-        width: 820px;
+        width: 900px;
     }
 }
 
@@ -313,5 +313,6 @@ footer .footer-paragrafo {
         justify-content: start;
         align-items: baseline;
         margin-top: 100px;
+        width: 900px;
     }
 }
