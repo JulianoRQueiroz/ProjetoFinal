@@ -19,6 +19,12 @@ a {
     padding: 2px 6px;
 }
 
+.container-promo{
+    width: 800px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
 
 a:hover,
 a:active {
@@ -32,8 +38,8 @@ a:active {
 header {
     background-color: #000;
     width: 100%;
-    min-width: 100vh;
-    position: absolute;
+    max-width: 1200px;
+    min-width: 306px;
     top:0;
     left: 0;
     display: flex;
@@ -50,12 +56,12 @@ header nav{
 }
 header li a{
     color: #fff;
-    font-size: 1.6rem;
+    font-size: 16px;
     
 }
 
 header li{
-    padding: 30px 10px;
+    margin: 0 40px;
 }
 
 header li:first-child{
@@ -70,85 +76,116 @@ header .menu{
 }
 header .nav-menu{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
 header .item-nav{
-    margin: 0 auto;
-    
+    margin: 20px;
+}
+
+@media only screen and (max-width: 862px) and (max-width: 1116px){
+    header {
+        flex-direction: row;
+        width: 820px;
+        min-width: 306px;
+        justify-content: start;
+        align-items: baseline;
+       
+    }
+}
+
+@media only screen and (max-width: 632px) and (max-width: 416px){
+    header {
+        flex-direction: row;
+        justify-content: start;
+        align-items: baseline;
+    }
+}
+
+@media only screen and (max-width: 521px) and (max-width: 306px){
+    header {
+        flex-direction: row;
+        justify-content: start;
+        align-items: baseline;
+    }
 }
 
 h1 {
     color: #000;
-    font-size: 3.2rem;
-    padding-bottom: 20px;
+    font-size: 60px;
+    text-align: center;
+    margin: 20px 10px;
+}
+
+ 
+.slider-exemplo {
+    width: 800px ;
+    min-width: 360px;
+    max-width: 1200px;
+    align-self: center;
+} 
+
+.promo {
+    display: flex;
+    width: 100%;
+    min-width: 360px;
+    max-width: 1200px;
+    padding: 1%;
+
+}
+
+.promocoes{
+    width: 800px ;
+    min-width: 360px;
+    max-width: 1200px;
+    padding: 1%;
+}
+
+.promo-section{
+    font-size: 24px;
+    text-align: center;
+    background-color: #000;
+    opacity: 80%;
+    color: #8257E6;
+}
+
+.title-section{
+    color: #000;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.promo-description{
     text-align: center;
 }
 
-nav .nav-menu{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    
+.burguer{
+    color: #8257E6;
+    font-weight: bold;
 }
-
-@media (max-width: 14300px){
-    header {
+@media only screen and (max-width: 1115px) and (max-width: 1026px){
+    .title-promo{
+        width: 800px;
+    }
+    .promo {
         flex-direction: column;
+        justify-content: start;
+        align-items: baseline;
     }
-    header img {
-        margin-bottom: 10px;
+    .promocoes{
+        margin: 0 auto;
+        padding-top: 1%;
+        font-size: 22px;
     }
-    header .item-nav{
-        font-size: 1.4rem;
+    .slider-exemplo{
+        margin: 0 auto;
+        width: 800px;
     }
-}
-@media only screen and (max-width: 1410px) and (max-width: 1255px) {
-    .menu a {
-        font-size: 1.6rem;
+    .promo-description{
+        font-size: 20px;
     }
-}
-@media only screen and (max-width: 1250px) and (max-width: 1000px) {
-    .menu a {
-        font-size: 1.4rem;
-    }
-}
-@media only screen and (max-width: 789px) {
-    .menu a {
-        font-size: 1.2rem;
-    }
-}
 
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-    .menu a {
-        font-size: 1.0rem;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .menu a {
-        font-size: 16px;
-    }
-}
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-    .menu a {
-        font-size: 12px;
-    }
-}
-@media only screen and (max-width: 479px) {
-    .menu a {
-        font-size: 7px;
-    }
-}
-
-.slider-exemplo {
-    width: 100vh;
-    height: 100vh;
-    margin: 250px auto;
-    margin-bottom: 50px;
-    padding: 20px 20px;
 }
 
 /* footer */
@@ -158,7 +195,7 @@ footer {
     width: 100%;
     padding-top: 20px;
     padding-bottom: 40px;
-    font-size: 2.2rem;
+    font-size: 26px;
 }
 
 .footer-nav {
@@ -175,7 +212,6 @@ footer {
 .social-links li {
     display: inline-block;
     margin-right: 20px;
-    font-size: 1.8rem;
 }
 
 .footer-nav li:last-child,
@@ -200,7 +236,7 @@ footer {
 
 .social-links li a:link,
 .social-links li a:visited {
-    font-size: 2.0rem;
+    font-size: 24px;
 }
 
 .logo-facebook,
@@ -230,19 +266,28 @@ footer .footer-paragrafo {
     color: #fff;
     text-align: center;
     margin-top: 60px;
-    font-size: 1.4rem;
+    font-size: 16px;
 }
 
 .promo-footer {
-    width: 100vh;
-    min-width: 100%;
+    width: 100%;
+    max-width: 1100px;
+    min-width: 360px;
 }
 
-@media only screen and (max-width: 800px) and (max-width: 600px){
+@media only screen and (max-width: 862px) and (max-width: 1116px){
     footer {
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: start;
+        align-items: baseline;
     }
-    footer p {
-        font-size: 1.0rem;
+}
+
+@media only screen and (max-width: 632px) and (max-width: 416px){
+    footer {
+        flex-direction: row;
+        justify-content: start;
+        align-items: baseline;
+        width: 820px;
     }
 }
