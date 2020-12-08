@@ -84,6 +84,8 @@ header .item-nav{
     margin: 20px;
 }
 
+
+
 @media only screen and (max-width: 862px) and (max-width: 1116px){
     header {
         flex-direction: row;
@@ -148,18 +150,10 @@ section .section-img{
         flex-direction: column;
         justify-content: start;
         align-items: baseline;
-        width: 800px;
-        padding-right: 25%;
+        margin: 0 auto;
+        padding-top: 100px;
     }
     
-    section .container-p{
-        font-size: 40px;
-    }
-
-    section .section-img{
-        width: 800px;
-        padding-left: 6%;
-    }
 }
 
 @media only screen and (max-width: 632px) and (max-width: 416px){

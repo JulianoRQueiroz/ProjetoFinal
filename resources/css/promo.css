@@ -147,7 +147,7 @@ h1 {
     text-align: center;
     background-color: #000;
     opacity: 80%;
-    color: #8257E6;
+    color: #fff;
 }
 
 .title-section{
@@ -280,6 +280,7 @@ footer .footer-paragrafo {
         flex-direction: row;
         justify-content: start;
         align-items: baseline;
+        width: 820px;
     }
 }
 
