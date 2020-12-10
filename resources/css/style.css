@@ -188,6 +188,15 @@ nav .nav-menu {
 
 
 /* container-img */
+h1 {
+    color: #000;
+    font-size: 60px;
+    text-align: center;
+    margin: 50px 10px;
+    width: 820px;
+    padding-right: 10%;
+}
+
 section {
     display: flex;
     align-items: center;
@@ -218,6 +227,7 @@ section .section-img{
 
 
 @media only screen and (max-width: 862px) and (max-width: 1116px){
+    
     section {
         flex-direction: column;
         justify-content: start;
