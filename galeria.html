@@ -9,47 +9,52 @@
     
 </head>
 <body>
-    <div class="container">
-        <header>
-            <!-- <img src="./resources/css/img/logo.png" alt="Css Burguer"> -->
-            <nav class="nav-menu">
-                <li class="item-nav ">
-                    <a href="./home.html">
-                        Home
-                    </a>
-                </li>
-                <li class="item-nav">
-                    <a href="./cardapio.html">
-                        Cardápio
-                    </a>
-                </li>
-                <li class="item-nav">
-                    <a href="./galeria.html">
-                        Galeria
-                    </a>
-                </li>
-                <li class="item-nav">
-                    <a href="./promo.html">
-                        Promoções
-                    </a>
-                </li>
-                <li class="item-nav">
-                    <a href="./delivery.html">
-                        Delivery
-                    </a>
-                </li>
-                <li class="item-nav">
-                    <a href="./reservas.html">
-                        Reservas
-                    </a>
-                </li>
-                <li class="item-nav">
-                    <a href="./franqueado.html">
-                        Seja um franqueado
-                    </a>
-                </li>
-            </nav>
-        </header>
+    <input id="main-menu-checkbox" type="checkbox">
+    <header class="menu">
+        <img src="./resources/css/img/logo.png" alt="Css Burguer">
+        <div class="iconemenu">
+            <ion-icon name="menu-outline"></ion-icon>
+        </div>
+
+        <nav class="nav-menu">
+            <li class="item-nav ">
+                <a href="./home.html">
+                    Home
+                </a>
+            </li>
+            <li class="item-nav">
+                <a href="./cardapio.html">
+                    Cardápio
+                </a>
+            </li>
+            <li class="item-nav">
+                <a href="./galeria.html">
+                    Galeria
+                </a>
+            </li>
+            <li class="item-nav">
+                <a href="./promo.html">
+                    Promoções
+                </a>
+            </li>
+            <li class="item-nav">
+                <a href="./delivery.html">
+                    Delivery
+                </a>
+            </li>
+            <li class="item-nav">
+                <a href="./reservas.html">
+                    Reservas
+                </a>
+            </li>
+            <li class="item-nav">
+                <a href="./franqueado.html">
+                    Seja um franqueado
+                </a>
+            </li>
+        </nav>
+    </header>
+    <div class="container-sections">
         <section id="items-wrapper">
             <h1>Galeria</h1>
             <div id="items">
@@ -108,7 +113,7 @@
                         <img src="./resources/img/galeria/3.jpg" alt="Galeria"> 
                     </figure>
                 </li>
-
+    
                 <li>
                     <figure class="images">
                         <img src="./resources/img/galeria/4.jpg" alt="Galeria"> 
@@ -121,7 +126,7 @@
                         <img src="./resources/img/galeria/5.jpg" alt="Galeria"> 
                     </figure>
                 </li>
-
+    
                 <li>
                     <figure class="images">
                         <img src="./resources/img/galeria/6.jpg" alt="Galeria"> 
@@ -146,7 +151,7 @@
                         <img src="./resources/img/galeria/9.jpg" alt="Galeria"> 
                     </figure>
                 </li>
-
+    
                 <li>
                     <figure class="images">
                         <img src="./resources/img/galeria/10.jpg" alt="Galeria"> 
@@ -166,28 +171,28 @@
                 </li>
             </ul>
         </section> 
-        <footer class="promo-footer">
-            <div>
-                <div class="col span-1-of-2">
-                    <ul class="footer-nav">
-                        <li><a href="./home.html">Nosso Hamburguer é o melhor.</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <ul class="social-links">
-                        <li><a href="#"><ion-icon class="logo-instagram" name="logo-instagram"></ion-icon></a></li>
-                        <li><a href="#"><ion-icon class="logo-facebook" name="logo-facebook"></ion-icon></a></li>
-                        <li><a href="#"><ion-icon class="logo-twitter" name="logo-twitter"></ion-icon></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-paragrafo">
-                <p>Copyright &copy; 2019 CSS BUrguer Todos os direitos reservados.</p>
-            </div>
-            </ul>
-        </footer>
     </div>
+    <footer class="promo-footer">
+        <div>
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li><a href="./home.html">Nosso Hamburguer é o melhor.</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="social-links">
+                    <li><a href="#"><ion-icon class="logo-instagram" name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon class="logo-facebook" name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon class="logo-twitter" name="logo-twitter"></ion-icon></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-paragrafo">
+            <p>Copyright &copy; 2019 CSS BUrguer Todos os direitos reservados.</p>
+        </div>
+        </ul>
+    </footer>
     <script src="./resources/js/galeria.js"></script>
-    <script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 </body>
 </html>

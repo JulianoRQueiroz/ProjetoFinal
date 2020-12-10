@@ -11,8 +11,13 @@
 
 <body>
     <div class="container-promo">
-        <header>
-            <!-- <img src="./resources/css/img/logo.png" alt="Css Burguer"> -->
+        <input id="main-menu-checkbox" type="checkbox">
+        <header class="menu">
+            <img src="./resources/css/img/logo.png" alt="Css Burguer">
+            <div class="iconemenu">
+                <ion-icon name="menu-outline"></ion-icon>
+            </div>
+
             <nav class="nav-menu">
                 <li class="item-nav ">
                     <a href="./home.html">
@@ -50,12 +55,12 @@
                     </a>
                 </li>
             </nav>
-        </header> 
+        </header>
         <section class="section-reservas">
             <h1 class="reserva-h1">Reservas</h1>
             <p class="descripition">
                 Para facilitar a rotina dos clientes e oferecer sempre o melhor atendimento, criamos a nossa Política de Reservas. Confira a seguir.<br>
-                Para reservar uma mesa no Old West, é preciso entrar em contato pelo telefone (51) 5555-5555 ou fazer a solicitação pelo site. Não aceitamos reservas por mensagens em nossas redes sociais ou por sites de avaliação de estabelecimentos, como o Tripadvisor.
+                Para reservar uma mesa no Css Burguer, é preciso entrar em contato pelo telefone (51) 5555-5555 ou fazer a solicitação pelo site. Não aceitamos reservas por mensagens em nossas redes sociais ou por sites de avaliação de estabelecimentos, como o Tripadvisor.
                 As reservas pelo site podem ser feitas até as 18 horas da data escolhida e a confirmação estará sujeita à disponibilidade de mesas.<br>
                 Para garantir lugares em dias de promoção, recomendamos que a reserva seja feita com antecedência.<br>
             </p><br>
@@ -64,6 +69,63 @@
             <h2 class="reserva-h2">Horário de atendimento</h2>
                 <p class="descripition">Css Burguer atende de segunda a quinta das 18h00 às 23h e às sextas e sábados das 18h30 à meia-noite</p>
         </section>
+        <div class="wrapper">
+            <div class="title">
+                Formulário de Reservas
+            </div>
+            <div class="form">
+                <div class="input_field">
+                    <label>Nome</label>
+                    <input type="text" class="input">
+                </div>
+                <div class="input_field">
+                    <label>Sobrenome</label>
+                    <input type="text" class="input">
+                </div>
+                <div class="input_field">
+                    <label>Sexo</label>
+                    <div class="custom_select">
+                        <select>
+                            <option value="">Selecionar</option>
+                            <option value="">Masculino</option>
+                            <option value="">Feminino</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="input_field">
+                    <label>Horário</label>
+                    <input type="time" class="input">
+                </div>
+                <div class="input_field">
+                    <label>Data</label>
+                    <input type="date" class="input">
+                </div>
+                
+                <div class="input_field">
+                    <label>Email</label>
+                    <input type="text" class="input">
+                </div>
+                <div class="input_field">
+                    <label>CEP</label>
+                    <input type="text" class="input">
+                </div>
+                <div class="input_field">
+                    <label>Observações</label>
+                    <textarea class="textarea"></textarea>
+                </div>
+                <div class="input_field terms">
+                    <label class="check">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <p>Eu aceito todos os termos e condições</p>
+                </div>
+                <div class="input_field">
+                    <input type="submit" value="Enviar" class="btn">
+                </div>
+                 
+            </div>
+        </div>
         <section class="section-testimonials">
             <div class="row">
                 <h2>Fazendo a vida mais saborosa</h2>
@@ -97,47 +159,28 @@
             </div>
         </section>
     </div>
-    <!-- <section class="container-img">
-        <p>Reservas</p>
-    </section>
-
-    <section class="wrapper">
-        <div class="registroformulario">
-            <h1>Formulário de Cadastro</h1>
+    <footer>
+        <div>
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li><a href="#">Nosso Hamburguer é o melhor.</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="social-links">
+                    <li><a href="#"><ion-icon class="logo-instagram" name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon class="logo-facebook" name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon class="logo-twitter" name="logo-twitter"></ion-icon></a></li>
+                </ul>
+            </div>
         </div>
+        <div class="footer-paragrafo">
+            <p>Copyright &copy; 2019 CSS BUrguer Todos os direitos reservados.</p>
+        </div>
+        </ul>
+    </footer>
     
-    <section class="container-formulario-conteudo">
-        <form>
-            <label>Nome</label>
-            <input type="text" name="primeiro_nome">
-
-            <label>Numero de pessoas</label>
-            <input type="text" name="cpf">
-
-            <label>data</label>
-            <input type="text" name="endereco">
-
-            <label>Email</label>
-            <input type="text" name="email">
-
-            <label>Telfone</label>
-            <input type="text" name="investimento">
-
-            <label>Hora</label>
-            <input type="text" name="interesse">
-            
-            <label>Observação</label>
-            <textarea name="observacao"></textarea>
-            
-            <a href="#" class="botao">Enviar</a>
-
-        </form>
-    </section> -->
-
-    
-    <script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script>
-
-
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 </body>
 
 </html>
