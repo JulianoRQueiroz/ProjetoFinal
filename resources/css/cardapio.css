@@ -123,7 +123,7 @@ nav .nav-menu {
         display: block;
     }
     header {
-        /* background-color: rgba(0, 0, 0, 0.7); */
+        background-color: rgba(0, 0, 0, 0.7);
         width: 100%;
     }
     header li {
@@ -169,7 +169,7 @@ nav .nav-menu {
 
 @media only screen and (max-width: 789px) {
     .menu a {
-        font-size: 16px;
+        font-size: 26px;
     }
 }
 
@@ -206,13 +206,12 @@ section{
 }
 
 .container{
-    width: 100%;
-    min-width: 306px;
+        width: 100%;
     max-width: 1200px;
+    min-width: 360px;
 }
 
 .cardapio{
-    margin-top: 230px;
     display: block;
     height: 820px;
 }
@@ -259,8 +258,9 @@ section{
 
 
 .home-menu ul {
-    padding-right: 1%;
+    padding-left: 5%;
     list-style-type: none;
+    width: 600px;
 }
 
 .home-menu ul:after {
@@ -317,13 +317,13 @@ section{
 @media only screen and (max-width: 1128px) and (max-width: 1200px){
     .home-menu {
         flex-direction: column;
-        align-items: center;
         padding-top: 50px;
+        /* padding-right: 50px; */
         width: 800px;
     }
     .slider{
         margin: 0 auto;
-        width: 800px;
+        width: 600px;
     }
 
     .cardapio{

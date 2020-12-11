@@ -119,12 +119,14 @@ nav .nav-menu {
 }
 
 @media (max-width: 770px) {
+    .topo{
+        display: none;
+    }
     header .nav-menu {
         width: 100%;
         display: block;
     }
     header {
-        background-color: rgba(0, 0, 0, 0.7);
         width: 100%;
     }
     header li {
@@ -170,7 +172,7 @@ nav .nav-menu {
 
 @media only screen and (max-width: 789px) {
     .menu a {
-        font-size: 16px;
+        font-size: 22px;
     }
 }
 
