@@ -258,7 +258,6 @@ section{
 
 
 .home-menu ul {
-    padding-left: 5%;
     list-style-type: none;
     width: 600px;
 }
@@ -318,8 +317,12 @@ section{
     .home-menu {
         flex-direction: column;
         padding-top: 50px;
-        /* padding-right: 50px; */
+        padding-left: 5%;
         width: 800px;
+    }
+    .home-mun ul{
+        padding-left: 5%;
+
     }
     .slider{
         margin: 0 auto;
