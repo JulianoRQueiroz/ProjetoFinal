@@ -328,6 +328,7 @@ section{
 
     .cardapio{
         width: 820px;
+        margin-top: 250px;
         margin-bottom: 280px;
     }
     ul{
