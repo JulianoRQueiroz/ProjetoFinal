@@ -44,7 +44,7 @@ header {
 .topo {
     background-color: #000;
     height: 200px;
-    width: 820px;
+    width: 100%;
     min-width: 360px;
     max-width: 1200px;
 }
@@ -182,7 +182,7 @@ nav .nav-menu {
 
 
 .menu{
-    width: 820px;
+    width: 100%;
     min-width: 100%;
 }
 
@@ -192,9 +192,10 @@ h1 {
     color: #000;
     font-size: 60px;
     text-align: center;
-    margin: 50px 10px;
-    width: 820px;
-    padding-right: 10%;
+    margin: 20px 0px;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
 }
 
 section {
@@ -206,28 +207,24 @@ section {
 
 
 section .section-img{
-    width: 820px;
-    max-width: 1150px;
-    min-width: 300px;
+    width: 100%;
+    max-width: 800px;
+    min-width: 360px;
     padding-top: 50px;
-    padding: 3%;
     margin: 0 auto;
-    object-fit: cover
+    object-fit: cover;
 }
 
 .container-p{
     font-size: 28px;
-    width: 900px;
+    width: 100%;
     text-align: center;
-    min-width: 306px;
-    max-width: 1150px;
     margin: 10px;
     font-style: italic;
 }
 
 
 @media only screen and (max-width: 862px) and (max-width: 1116px){
-    
     section {
         flex-direction: column;
         justify-content: start;
@@ -236,9 +233,13 @@ section .section-img{
         padding-top: 50px;
         padding-left: 1%;
     }
+    .section-img{
+        padding: 10px;
+    }
     .container-p{
-        font-size: 22px;
-        width: 800px;
+        font-size: 20px;
+        width: 90%;
+        padding: 5px;
     }
     
 }
@@ -248,11 +249,11 @@ section .section-img{
         flex-direction: column;
         justify-content: start;
         align-items: baseline;
-        width: 820px;
+        width: 100%;
     }
     section .section-img{
-        width: 800px;
-        height: 750px;
+        width: 100%;
+        margin: 0 auto;
     }
 
 }
@@ -340,8 +341,6 @@ footer .footer-paragrafo {
 
 .promo-footer {
     width: 100%;
-    max-width: 1100px;
-    min-width: 360px;
 }
 
 @media only screen and (max-width: 862px) and (max-width: 1116px){
@@ -349,8 +348,8 @@ footer .footer-paragrafo {
         flex-direction: row;
         justify-content: start;
         align-items: baseline;
-        width: 820px;
-        min-width: 306px;
+        margin-top: 100px;
+        width: 100%;
     }
 }
 
@@ -360,7 +359,6 @@ footer .footer-paragrafo {
         justify-content: start;
         align-items: baseline;
         margin-top: 100px;
-        width: 820px;
-        min-width: 306px;
+        width: 100%;
     }
 }
