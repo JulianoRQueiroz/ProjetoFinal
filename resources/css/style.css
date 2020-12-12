@@ -206,7 +206,7 @@ section {
 }
 
 
-section .section-img{
+.section-img{
     width: 100%;
     max-width: 800px;
     min-width: 360px;
@@ -230,7 +230,6 @@ section .section-img{
         justify-content: start;
         align-items: baseline;
         margin: 0 auto;
-        padding-top: 50px;
         padding-left: 1%;
     }
     .section-img{
@@ -254,6 +253,7 @@ section .section-img{
     section .section-img{
         width: 100%;
         margin: 0 auto;
+        height: 400px;
     }
 
 }
